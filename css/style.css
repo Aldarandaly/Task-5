@@ -1,0 +1,229 @@
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* end global  */
+/* start container  */
+.container {
+    width: 100%; 
+    max-width: 1300px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 20px; 
+}
+/* end container  */
+/* start nav  */
+.navbar {
+    padding: 5px 0px;
+    position: sticky;
+    top: 0;
+}
+.navbar .logo {
+    float: left;
+}
+.navbar .navbarList {
+    float: right;
+}
+.navbar .navbarList li {
+    display: inline-block;
+    text-align: justify;
+    margin-right: 5px;
+}
+.navbar .navbarList img {
+    width: 30px;
+}
+/* end nav  */
+/* start hero  */
+.hero .text {
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.hero .text h1 {
+    color: #227539;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.hero .button a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 7px 28px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.hero .text .left {
+    background-color: #227539;
+    color: white;
+}
+.hero .text .right {
+    background-color: #c2c2c2c2;
+    color: black;
+}
+.hero img {
+    margin-top: -280px;
+    width: 350px;
+    float: right;
+}
+/* end hero  */
+/* start skills  */
+.skills {
+    text-align: center;
+    background-color: #c2c2c2c2;
+    margin-top: 300px;
+    position: relative;
+    z-index: -3;
+}
+.skills img {
+    width: 600px;
+    padding: 40px 0px;
+}
+.back-g {
+    position: absolute;
+    background-color: #227539;
+    width: 100px;
+    height: 512px;
+    z-index: -1;
+    margin-left: 420px;
+}
+.circle {
+    position: absolute;
+    background-color: #64d99c;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -500px;
+    margin-left: 300px;
+}
+/* end skills  */
+/* start clients  */
+.clients {
+    margin-top: 100px;
+}
+.clients .text {
+    text-align: center;
+}
+.clients .text h2 {
+    color: #227539;
+    font-size: 50px;
+}
+.clients .text p {
+    margin-top: 15px;
+}
+.clients .card {
+    display: inline-block;
+    background-color: #c2c2c2c2;
+    margin-top: 50px;
+    margin-left: 6%;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+}
+.clients .card img {
+   width: 80px;
+   height: 80px;
+   border: 3px solid white;
+   border-radius: 50%;
+}
+.clients .card p {
+   margin: 10px 0px;
+}
+.clients .card h3 {
+   color: #227539;
+   font-size: 20px;
+   font-weight: bold;
+}
+.clients .card span {
+   margin-top: 15px;
+}
+.static {
+   margin-top: 100px;
+}
+.static .image img {
+   width: 300px;
+   border-left: 30px solid #227539;
+   margin-left: 20%;
+}
+.static .text {
+    position: relative;
+    background-color: #c2c2c2c2;
+    width: 320px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 12%;
+    height: 240px;
+}
+.back {
+    position: absolute;
+    background-color: #227539;
+    width: 39px;
+    height: 150px;
+    margin-left: 750px;
+    margin-top: -230px;
+    z-index: -1;
+}
+.static .text h4 {
+   color: #227539;
+   font-size: 30px;
+   padding-top: 20px;
+   margin-bottom: 30px;
+}
+.static .text .left {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 7px 28px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #227539;
+    color: white;
+}
+/* end clients  */
+/* start contact  */
+.contact {
+    background-color: #c2c2c2c2;
+    margin-top: 100px;
+    height: 560px;
+}
+.contact h3 {
+    text-align: center;
+    padding-top: 50px;
+    color: #227539;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.contact .form {
+    display: grid;
+    gap: 10px;
+    background-color: white;
+    width: 800px;
+    padding: 40px;
+    margin-left: 17%;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #c2c2c2c2;
+  background-color: #c2c2c2c2;
+  border-radius: 4px;
+}
+button {
+    margin-left: 38%;
+    width: 200px;
+    background-color: #227539;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/* end contact  */
+
